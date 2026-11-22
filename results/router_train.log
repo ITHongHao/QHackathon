@@ -1,0 +1,17 @@
+train: 6000 pairs per p at p=[0.003, 0.004, 0.005], loss ratio 0.5, 12 chunks on 3 workers
+  p=0.005 chunk 1 done (147 s, worker peak 299 MB)
+  p=0.005 chunk 0 done (148 s, worker peak 300 MB)
+  p=0.005 chunk 2 done (149 s, worker peak 304 MB)
+  p=0.004 chunk 0 done (223 s, worker peak 300 MB)
+  p=0.004 chunk 1 done (224 s, worker peak 304 MB)
+  p=0.005 chunk 3 done (266 s, worker peak 299 MB)
+  p=0.004 chunk 2 done (292 s, worker peak 300 MB)
+  p=0.004 chunk 3 done (293 s, worker peak 304 MB)
+  p=0.003 chunk 0 done (308 s, worker peak 299 MB)
+  p=0.003 chunk 1 done (334 s, worker peak 300 MB)
+  p=0.003 chunk 2 done (334 s, worker peak 304 MB)
+  p=0.003 chunk 3 done (345 s, worker peak 299 MB)
+p=0.003: 6000 pairs  BP converged 83%  BP/OSD-0 wrong when not converged 5.5%  -> results/router_train_p0.0030_loss0.5.npz
+p=0.004: 6000 pairs  BP converged 54%  BP/OSD-0 wrong when not converged 17.4%  -> results/router_train_p0.0040_loss0.5.npz
+p=0.005: 6000 pairs  BP converged 22%  BP/OSD-0 wrong when not converged 41.2%  -> results/router_train_p0.0050_loss0.5.npz
+exit code 0

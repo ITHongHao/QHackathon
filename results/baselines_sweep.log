@@ -1,0 +1,22 @@
+10000 shots at p=0.003, 12 cycles, seed 1, 4 workers, failures listed as [X Z]
+bposd      failures [36 23] of 10000  per cycle 4.93e-04 +- 6.4e-05  mean 60.3 ms  p99 386 ms
+           wall time 158 s
+relay-bp   failures [5 3] of 10000  per cycle 6.67e-05 +- 2.4e-05  mean 45.9 ms  p99 315 ms
+           wall time 117 s
+saved -> results/baselines_p0.0030_n10000_seed1.npz
+
+10000 shots at p=0.004, 12 cycles, seed 1, 4 workers, failures listed as [X Z]
+bposd      failures [266 267] of 10000  per cycle 4.50e-03 +- 2.0e-04  mean 211.3 ms  p99 650 ms
+           wall time 537 s
+relay-bp   failures [59 41] of 10000  per cycle 8.37e-04 +- 8.4e-05  mean 320.0 ms  p99 5272 ms
+           wall time 811 s
+saved -> results/baselines_p0.0040_n10000_seed1.npz
+
+10000 shots at p=0.005, 12 cycles, seed 1, 4 workers, failures listed as [X Z]
+bposd      failures [1310 1344] of 10000  per cycle 2.36e-02 +- 4.7e-04  mean 423.9 ms  p99 876 ms
+           wall time 1071 s
+relay-bp   failures [429 431] of 10000  per cycle 7.32e-03 +- 2.5e-04  mean 1097.7 ms  p99 6295 ms
+           wall time 2819 s
+saved -> results/baselines_p0.0050_n10000_seed1.npz
+
+exit code 0
